@@ -1,0 +1,120 @@
+// Fire 火情监控数据格式
+{
+  "C":"007PX",
+  "U":"007Q1",
+  "K":"201811191410254635",
+  "V":"7BAE0FD2F5FA7CD0A847EE2D83DF4E18",
+  "Name":"Fire",
+  "Values":{
+    "Date":"2018-11-19 14:10:25",
+    "Humidity":"30",
+    "EnvTemperature":"20",
+    "CableTemperature":"30",
+    "Liquid":"0",
+    "Smoke":"0"
+  }
+}
+
+//Weather 气象系统数据格式
+
+{
+  "C":"007PX",
+  "U":"007Q1",
+  "K":"201811191410254635",
+  "V":"7BAE0FD2F5FA7CD0A847EE2D83DF4E18",
+  "Name":"Weather",
+  "Values":{
+    "Date":"2018-11-19 14:10:25",
+    "Humidity":"30",
+    "Temperature":"20",
+    "Wind":"东风一级",
+    "AirPressure":"820",
+    "Illumination":"90"
+  }
+}
+
+//Device 设备首页数据格式
+
+{
+  "C":"007PX",
+  "U":"007Q1",
+  "K":"201811191410254635",
+  "V":"7BAE0FD2F5FA7CD0A847EE2D83DF4E18",
+  "Name":"Device",
+  "Values":{
+    "Date":"2018-11-19 14:10:25",
+    "InsideTemperature":"23.2",
+    "OutsideTemperature":"25.5",
+    "SettingTemperature":"26.4",
+    "WindTemperature":"26.5"
+  }
+}
+
+//Factory 工厂首页数据格式
+
+{
+  "C":"007PX",
+  "U":"007Q1",
+  "K":"201811191410254635",
+  "V":"7BAE0FD2F5FA7CD0A847EE2D83DF4E18",
+  "Name":"Factory",
+  "Values":{
+    "Date":"2018-11-19 14:10:25",
+    "Input":"1000",
+    "Goods":"998",
+    "Defective":"1",
+    "SecondGoods":"2",
+    "Capacity":"2",
+    "Scrap":"0",
+    "ThroughRate":"98",
+    "GoodRate":"98"
+  }
+}
+
+{
+  "C":"007PX",
+  "U":"007Q1",
+  "K":"201811191410254635",
+  "V":"7BAE0FD2F5FA7CD0A847EE2D83DF4E18",
+  "Name":"Value",
+  "Values":{
+    "Date":"2018-11-19 14:10:25",
+    "Order":"1353731KIS",
+    "Value": "200",
+    "Input": "6",
+    "worker": {
+      "name": "Example",
+      "number": "9527",
+      "type": "普工"
+    },
+    "Device": {
+      "name": "一号机",
+      "code": "110-00234"
+    }
+  }
+}
+
+{
+  "C":"007PX",
+  "U":"007Q1",
+  "K":"201811191410254635",
+  "V":"7BAE0FD2F5FA7CD0A847EE2D83DF4E18",
+  "Name":"Quality",
+  "Values":{
+    "Date":"2018-11-19 14:10:25",
+    "Order":"1353731KIS",
+    "Goods": "98",
+    "NotGoods": "2",
+    "Capacity": "100",
+    "ThroughRate": "98%",
+    "Device": {
+      "Type": "机器一"
+    },
+    "Thing": {
+      "Name": "示例",
+      "Standard": "50kg"
+    },
+    "Gross": "100"
+  }
+  four fivsasada
+ adada
